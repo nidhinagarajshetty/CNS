@@ -1,3 +1,8 @@
+Write a Python program to implement Caesar Cipher encryption with a 
+shift value of 3. The program should take the plaintext as input 
+from the user and display the corresponding encrypted text as output.
+
+
 def caesar_cipher_encrypt(plain_text, shift):
     encrypted_text = ""
 
@@ -18,5 +23,6 @@ plain_text = input("Enter the plaintext: ")
 shift = int(input("Enter the shift value: "))
 
 encrypted_text = caesar_cipher_encrypt(plain_text, shift)
+
 
 print("Encrypted text:", encrypted_text)
