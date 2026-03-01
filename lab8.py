@@ -1,3 +1,5 @@
+Implement the SHA-256 hashing algorithm using the hashlib library.
+
 import hashlib
 
 def hash_string(text):
@@ -11,6 +13,7 @@ hash_value = hash_string(text)
 
 print("Original text:", text)
 print("SHA-256 hash:", hash_value)
+
 
 
 
