@@ -1,5 +1,4 @@
-Write a Python script to perform a brute-force attack by 
-generating all possible password combinations up to a given maximum length.
+Brute-force attack by generating all possible password combinations up to a given maximum length.
 
 import itertools
 import string
@@ -24,4 +23,5 @@ target_password=input("enter the password")
 max_length=8
 
 brute_force_attack(target_password,max_length)
+
 
