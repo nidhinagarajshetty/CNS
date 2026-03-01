@@ -1,3 +1,5 @@
+Write a Python program to perform a dictionary attack on an MD5 hashed password using a list of commonly used passwords
+
 import hashlib
 target_password=input("enter the target poasword:")
 target_hash=hashlib.md5(target_password.encode()).hexdigest()
@@ -16,4 +18,5 @@ def crack_hash(target_hash,dictionary):
             return password
     print("password not found!")
     return None
+
 crack_hash(target_hash, password_list)
