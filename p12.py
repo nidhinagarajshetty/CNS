@@ -1,3 +1,5 @@
+Encryption and Decryption the text using AES Algorithm 
+
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
@@ -20,3 +22,4 @@ decrypted_text = decrypt_AES(ciphertext, key, iv)
 print("Plain Text:", plain_text)
 print("Cipher Text:", ciphertext)
 print("Decrypted Text:", decrypted_text)
+
